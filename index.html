@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haikal Ashidiq — Creative Editor & Future AI Automation Developer. Building digital systems that save time through automation, creativity, and AI.">
+    <meta name="keywords" content="Haikal Ashidiq, AI automation, video editing, graphic design, web development, personal branding, AI agent, business systems">
+    <meta name="author" content="Haikal Ashidiq">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Haikal Ashidiq — Personal Brand">
+    <meta property="og:description" content="Creative Editor & Future AI Automation Developer. Building Systems, Not Just Services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://haikalashidiq.com">
+    <meta property="og:site_name" content="Haikal Ashidiq">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Haikal Ashidiq — Personal Brand">
+    <meta name="twitter:description" content="Creative Editor & Future AI Automation Developer. Building Systems, Not Just Services.">
+    <link rel="canonical" href="https://haikalashidiq.com">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23090909'/><rect x='2' y='2' width='28' height='28' rx='7' fill='none' stroke='%234A9EFF' stroke-width='1.5'/><text x='16' y='23' font-family='Inter,sans-serif' font-size='18' font-weight='700' fill='%23ffffff' text-anchor='middle'>H</text></svg>" type="image/svg+xml">
+    <title>Haikal Ashidiq — Personal Brand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #090909;
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        ::selection {
+            background-color: rgba(74, 158, 255, 0.3);
+            color: #ffffff;
+        }
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #090909;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2a2a2a;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4A9EFF;
+        }
+        .container {
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 28px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 20px;
+            }
+        }
+        .section {
+            padding: 100px 0;
+            position: relative;
+        }
+        @media (max-width: 768px) {
+            .section {
+                padding: 64px 0;
+            }
+        }
+        .section-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #4A9EFF;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+        .section-title {
+            font-size: clamp(2rem, 4.5vw, 3.2rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 14px;
+            color: #ffffff;
+        }
+        .section-subtitle {
+            font-size: 1.05rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 48px;
+            max-width: 520px;
+            line-height: 1.5;
+        }
+        .text-accent {
+            color: #4A9EFF;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 36px 32px;
+            transition: all 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at top left, rgba(74, 158, 255, 0.04) 0%, transparent 70%);
+            pointer-events: none;
+            border-radius: 20px;
+        }
+        .glass-card:hover {
+            border-color: rgba(255, 255, 255, 0.16);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(74, 158, 255, 0.08) inset;
+            background: rgba(255, 255, 255, 0.045);
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 13px 26px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+            border: 1px solid transparent;
+            letter-spacing: -0.01em;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-primary {
+            background: #4A9EFF;
+            color: #090909;
+            border-color: #4A9EFF;
+            font-weight: 600;
+        }
+        .btn-primary:hover {
+            background: #3a8eef;
+            border-color: #3a8eef;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(74, 158, 255, 0.35);
+        }
+        .btn-secondary {
+            background: transparent;
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.25);
+        }
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.45);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .loading-screen {
+            position: fixed;
+            inset: 0;
+            background: #090909;
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+            opacity: 1;
+            visibility: visible;
+        }
+        .loading-screen.hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        .loading-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .loading-line {
+            width: 48px;
+            height: 2px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+        .loading-line::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: #4A9EFF;
+            animation: loadingSlide 1.4s ease-in-out infinite;
+            border-radius: 1px;
+        }
+        @keyframes loadingSlide {
+            0% {
+                left: -100%;
+            }
+            50% {
+                left: 100%;
+            }
+            100% {
+                left: 100%;
+            }
+        }
+        .loading-text {
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            padding: 14px 0;
+            transition: all 0.35s ease;
+            background: transparent;
+        }
+        .navbar.scrolled {
+            background: rgba(9, 9, 9, 0.8);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 10px 0;
+        }
+        .nav-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        @media (max-width: 768px) {
+            .nav-container {
+                padding: 0 20px;
+            }
+        }
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            z-index: 1001;
+            transition: transform 0.3s ease;
+        }
+        .nav-logo:hover {
+            transform: scale(1.05);
+        }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            list-style: none;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+        .nav-link {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            transition: color 0.25s ease;
+            position: relative;
+            padding: 4px 0;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #4A9EFF;
+            border-radius: 1px;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover,
+        .nav-link.active {
+            color: #ffffff;
+        }
+        .nav-link.active::after,
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 1001;
+            padding: 6px;
+            border-radius: 6px;
+            transition: background 0.2s ease;
+        }
+        .menu-toggle:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+        }
+        .menu-bar {
+            width: 22px;
+            height: 2px;
+            background: #ffffff;
+            border-radius: 1px;
+            transition: all 0.3s ease;
+            display: block;
+        }
+        .menu-toggle.active .menu-bar:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+        .menu-toggle.active .menu-bar:nth-child(2) {
+            opacity: 0;
+        }
+        .menu-toggle.active .menu-bar:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+        .mobile-menu {
+            position: fixed;
+            inset: 0;
+            background: rgba(9, 9, 9, 0.96);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        .mobile-menu.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .mobile-nav-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+        .mobile-nav-link {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            transition: color 0.3s ease;
+        }
+        .mobile-nav-link:hover,
+        .mobile-nav-link:focus {
+            color: #4A9EFF;
+        }
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-content {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        .hero-greeting {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.55);
+            margin-bottom: 8px;
+            letter-spacing: -0.01em;
+        }
+        .hero-title {
+            font-size: clamp(2.8rem, 7vw, 5.5rem);
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            line-height: 1.05;
+            color: #ffffff;
+            margin-bottom: 16px;
+        }
+        .hero-roles {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .role-item.accent {
+            color: #4A9EFF;
+            font-weight: 600;
+        }
+        .role-divider {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            display: inline-block;
+        }
+        .hero-tagline {
+            font-size: 1.15rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 24px;
+            letter-spacing: -0.01em;
+        }
+        .hero-description {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.45);
+            line-height: 1.7;
+            max-width: 500px;
+            margin: 0 auto 36px;
+        }
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            justify-content: center;
+        }
+        .hero-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(74, 158, 255, 0.06) 0%, transparent 70%);
+            pointer-events: none;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 36px;
+            }
+        }
+        .about-text {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .about-intro {
+            font-size: 1.15rem;
+            font-weight: 500;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.85);
+        }
+        .about-detail {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.55);
+            line-height: 1.7;
+        }
+        .about-expertise {
+            background: rgba(255, 255, 255, 0.025);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 20px;
+            padding: 28px 28px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .expertise-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #4A9EFF;
+            margin-bottom: 20px;
+        }
+        .expertise-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .expertise-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.75);
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 10px;
+            transition: all 0.25s ease;
+            background: rgba(255, 255, 255, 0.015);
+        }
+        .expertise-item:hover {
+            background: rgba(255, 255, 255, 0.04);
+            color: #ffffff;
+        }
+        .expertise-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #4A9EFF;
+            flex-shrink: 0;
+        }
+        .mission-card {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 48px 36px;
+        }
+        .mission-title {
+            font-size: clamp(1.8rem, 4vw, 2.6rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 18px;
+        }
+        .mission-text {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        .mission-subtext {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.6;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        @media (max-width: 480px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .service-card {
+            padding: 28px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            cursor: default;
+        }
+        .service-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            background: rgba(74, 158, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 4px;
+            flex-shrink: 0;
+        }
+        .service-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+        }
+        .service-description {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.55;
+            flex-grow: 1;
+        }
+        .service-status {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            padding: 5px 12px;
+            border-radius: 50px;
+            display: inline-block;
+            width: fit-content;
+        }
+        .service-status.available {
+            background: rgba(74, 158, 255, 0.12);
+            color: #4A9EFF;
+        }
+        .service-status.coming-soon {
+            background: rgba(255, 255, 255, 0.05);
+            color: rgba(255, 255, 255, 0.4);
+        }
+        .coming-soon-card {
+            opacity: 0.7;
+        }
+        .coming-soon-card:hover {
+            opacity: 0.9;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        @media (max-width: 480px) {
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .portfolio-card {
+            padding: 40px 28px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            min-height: 220px;
+            justify-content: center;
+        }
+        .portfolio-placeholder {
+            width: 72px;
+            height: 72px;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px dashed rgba(255, 255, 255, 0.12);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .portfolio-name {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+        .portfolio-desc {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.4);
+        }
+        .ebook-card {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 48px 36px;
+        }
+        .ebook-title {
+            font-size: clamp(1.8rem, 4vw, 2.4rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 14px;
+        }
+        .ebook-description {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.55);
+            line-height: 1.6;
+            margin-bottom: 28px;
+            max-width: 420px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ebook-btn {
+            margin-bottom: 12px;
+        }
+        .ebook-note {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.3);
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        @media (max-width: 480px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .contact-card {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 28px 24px;
+            text-decoration: none;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .contact-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: rgba(74, 158, 255, 0.08);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: background 0.3s ease;
+        }
+        .contact-card:hover .contact-icon {
+            background: rgba(74, 158, 255, 0.18);
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .contact-name {
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            color: #ffffff;
+        }
+        .contact-detail {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .contact-action {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #4A9EFF;
+            margin-top: 4px;
+            letter-spacing: -0.01em;
+            transition: opacity 0.25s ease;
+        }
+        .contact-card:hover .contact-action {
+            opacity: 0.8;
+        }
+        .site-footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 32px 0;
+            text-align: center;
+        }
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .footer-text {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.45);
+            letter-spacing: -0.01em;
+        }
+        .footer-text strong {
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 600;
+        }
+        .footer-separator {
+            margin: 0 6px;
+            color: rgba(255, 255, 255, 0.2);
+        }
+        .footer-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .footer-link {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: color 0.25s ease;
+        }
+        .footer-link:hover {
+            color: #4A9EFF;
+        }
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            z-index: 998;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #ffffff;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(12px);
+            transition: all 0.35s ease;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .scroll-top-btn.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        .scroll-top-btn:hover {
+            background: rgba(74, 158, 255, 0.2);
+            border-color: rgba(74, 158, 255, 0.4);
+            box-shadow: 0 8px 24px rgba(74, 158, 255, 0.2);
+            transform: translateY(-3px);
+        }
+        @media (max-width: 768px) {
+            .scroll-top-btn {
+                bottom: 20px;
+                right: 20px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: opacity 0.7s cubic-bezier(0.25, 0.1, 0.25, 1), transform 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-delay-1 {
+            transition-delay: 0.1s;
+        }
+        .reveal-delay-2 {
+            transition-delay: 0.2s;
+        }
+        .reveal-delay-3 {
+            transition-delay: 0.3s;
+        }
+        .reveal-delay-4 {
+            transition-delay: 0.4s;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+            .reveal {
+                opacity: 1;
+                transform: none;
+                transition: none;
+            }
+            .loading-screen {
+                display: none;
+            }
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen" aria-hidden="true">
+        <div class="loading-content">
+            <div class="loading-line"></div>
+            <span class="loading-text">Haikal Ashidiq</span>
+        </div>
+    </div>
+    <header class="navbar" id="navbar" role="banner">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Haikal Ashidiq Home">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="28" height="28" rx="7" stroke="white" stroke-width="1.5" fill="none" />
+                    <text x="16" y="22" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">H</text>
+                </svg>
+            </a>
+            <nav class="nav-links" id="navLinks" role="navigation" aria-label="Main navigation">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#services" class="nav-link" data-section="services">Services</a>
+                <a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+                <span class="menu-bar"></span>
+            </button>
+        </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <nav class="mobile-nav-links">
+            <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+            <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+            <a href="#services" class="mobile-nav-link" data-section="services">Services</a>
+            <a href="#portfolio" class="mobile-nav-link" data-section="portfolio">Portfolio</a>
+            <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+        </nav>
+    </div>
+    <main id="home">
+        <section class="hero-section section" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content reveal">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-title" id="hero-title">Haikal Ashidiq</h1>
+                    <div class="hero-roles">
+                        <span class="role-item">Creative Editor</span>
+                        <span class="role-divider" aria-hidden="true"></span>
+                        <span class="role-item accent">Future AI Automation Developer</span>
+                    </div>
+                    <p class="hero-tagline">Building Systems, Not Just Services.</p>
+                    <p class="hero-description">I'm passionate about video editing, design, AI, automation, and creating digital systems that help people work smarter.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            View Portfolio
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-glow" aria-hidden="true"></div>
+        </section>
+        <section class="about-section section" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section-label reveal">About</div>
+                <h2 class="section-title reveal" id="about-title">Who I Am</h2>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p class="about-intro">Hi, I'm <strong>Haikal</strong> — a creative professional with a deep passion for <span class="text-accent">video editing</span>, <span class="text-accent">graphic design</span>, and the future of <span class="text-accent">AI-powered automation</span>.</p>
+                        <p class="about-detail">I'm currently building expertise across multiple disciplines — from crafting compelling visual stories through video and design, to developing intelligent automation systems that eliminate repetitive work. My goal is to bridge the gap between creativity and technology, delivering solutions that are both beautiful and efficient.</p>
+                        <p class="about-detail">Every project I take on is an opportunity to learn, build, and refine systems that make a real difference. I believe in <strong>doing the work</strong> — not just talking about it.</p>
+                    </div>
+                    <div class="about-expertise reveal">
+                        <h3 class="expertise-title">Current Focus Areas</h3>
+                        <ul class="expertise-list">
+                            <li class="expertise-item"><span class="expertise-dot" aria-hidden="true"></span>Video Editing</li>
+                            <li class="expertise-item"><span class="expertise-dot" aria-hidden="true"></span>Graphic Design</li>
+                            <li class="expertise-item"><span class="expertise-dot" aria-hidden="true"></span>Website Development</li>
+                            <li class="expertise-item"><span class="expertise-dot" aria-hidden="true"></span>AI Automation</li>
+                            <li class="expertise-item"><span class="expertise-dot" aria-hidden="true"></span>AI Agent Development</li>
+                            <li class="expertise-item"><span class="expertise-dot" aria-hidden="true"></span>Personal Branding</li>
+                            <li class="expertise-item"><span class="expertise-dot" aria-hidden="true"></span>Business Systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mission-section section" aria-labelledby="mission-title">
+            <div class="container">
+                <div class="mission-card glass-card reveal">
+                    <div class="section-label reveal">Mission</div>
+                    <h2 class="mission-title reveal" id="mission-title">My Mission</h2>
+                    <p class="mission-text reveal">I want to build <span class="text-accent">digital systems</span> that save people's time through <strong>automation</strong>, <strong>creativity</strong>, and <strong>AI</strong>.</p>
+                    <p class="mission-subtext reveal">The future belongs to those who can design systems that work while they sleep. I'm here to make that future accessible to everyone I work with.</p>
+                </div>
+            </div>
+        </section>
+        <section class="services-section section" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-label reveal">Services</div>
+                <h2 class="section-title reveal" id="services-title">What I Offer</h2>
+                <p class="section-subtitle reveal">Current services and upcoming AI-powered solutions</p>
+                <div class="services-grid">
+                    <article class="service-card glass-card reveal">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <rect x="3" y="5" width="22" height="18" rx="3" stroke="white" stroke-width="1.5" />
+                                <polygon points="11,9 11,19 20,14" fill="white" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Video Editing</h3>
+                        <p class="service-description">Professional video editing that tells your story with impact. Clean cuts, smooth transitions, and engaging narratives.</p>
+                        <span class="service-status available">Available</span>
+                    </article>
+                    <article class="service-card glass-card reveal">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="14" r="10" stroke="white" stroke-width="1.5" />
+                                <path d="M14 4v20M4 14h20" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                <circle cx="14" cy="14" r="3" fill="white" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Graphic Design</h3>
+                        <p class="service-description">Clean, modern designs that elevate your brand. From social media graphics to complete visual identities.</p>
+                        <span class="service-status available">Available</span>
+                    </article>
+                    <article class="service-card glass-card reveal">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <rect x="3" y="3" width="22" height="18" rx="3" stroke="white" stroke-width="1.5" />
+                                <line x1="3" y1="9" x2="25" y2="9" stroke="white" stroke-width="1" />
+                                <circle cx="6" cy="6" r="1" fill="white" />
+                                <circle cx="9" cy="6" r="1" fill="white" />
+                                <circle cx="12" cy="6" r="1" fill="white" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Landing Page Design</h3>
+                        <p class="service-description">High-converting landing pages designed with purpose. Beautiful, fast, and built to turn visitors into clients.</p>
+                        <span class="service-status available">Available</span>
+                    </article>
+                    <article class="service-card glass-card reveal">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <path d="M14 2l3.5 7 7.5 1-5.5 5.5L21 23l-7-3.5L7 23l1.5-7.5L3 10l7.5-1L14 2z" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Personal Branding</h3>
+                        <p class="service-description">Build a personal brand that stands out. Strategy, visual identity, and content systems that reflect who you truly are.</p>
+                        <span class="service-status available">Available</span>
+                    </article>
+                    <article class="service-card glass-card reveal coming-soon-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <circle cx="14" cy="14" r="9" stroke="white" stroke-width="1.5" />
+                                <circle cx="14" cy="14" r="4" stroke="white" stroke-width="1.5" />
+                                <path d="M14 5v2M14 21v2M5 14h2M21 14h2" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">AI Automation</h3>
+                        <p class="service-description">Custom AI workflows that automate repetitive tasks, freeing your time for high-impact work that truly matters.</p>
+                        <span class="service-status coming-soon">Coming Soon</span>
+                    </article>
+                    <article class="service-card glass-card reveal coming-soon-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <rect x="5" y="7" width="18" height="13" rx="4" stroke="white" stroke-width="1.5" />
+                                <path d="M9 12h10M9 16h6" stroke="white" stroke-width="1.2" stroke-linecap="round" />
+                                <polygon points="14,20 16,24 18,20" fill="white" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">AI Chatbot</h3>
+                        <p class="service-description">Intelligent chatbots that engage your audience 24/7. Customer support, lead generation, and conversational AI.</p>
+                        <span class="service-status coming-soon">Coming Soon</span>
+                    </article>
+                    <article class="service-card glass-card reveal coming-soon-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                <rect x="3" y="4" width="10" height="8" rx="2" stroke="white" stroke-width="1.5" />
+                                <rect x="15" y="4" width="10" height="8" rx="2" stroke="white" stroke-width="1.5" />
+                                <rect x="3" y="16" width="10" height="8" rx="2" stroke="white" stroke-width="1.5" />
+                                <rect x="15" y="16" width="10" height="8" rx="2" stroke="white" stroke-width="1.5" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Business Automation</h3>
+                        <p class="service-description">End-to-end business systems that streamline operations, reduce costs, and scale your impact effortlessly.</p>
+                        <span class="service-status coming-soon">Coming Soon</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section section" id="portfolio" aria-labelledby="portfolio-title">
+            <div class="container">
+                <div class="section-label reveal">Portfolio</div>
+                <h2 class="section-title reveal" id="portfolio-title">Selected Work</h2>
+                <p class="section-subtitle reveal">Projects will be added here soon. Stay tuned.</p>
+                <div class="portfolio-grid">
+                    <article class="portfolio-card glass-card reveal">
+                        <div class="portfolio-placeholder" aria-hidden="true">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <rect x="4" y="6" width="32" height="28" rx="4" stroke="rgba(255,255,255,0.3)" stroke-width="1" />
+                                <polygon points="15,13 15,27 28,20" fill="rgba(255,255,255,0.2)" />
+                            </svg>
+                        </div>
+                        <h3 class="portfolio-name">Project One</h3>
+                        <p class="portfolio-desc">Coming soon</p>
+                    </article>
+                    <article class="portfolio-card glass-card reveal">
+                        <div class="portfolio-placeholder" aria-hidden="true">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <rect x="4" y="6" width="32" height="28" rx="4" stroke="rgba(255,255,255,0.3)" stroke-width="1" />
+                                <circle cx="20" cy="20" r="6" stroke="rgba(255,255,255,0.3)" stroke-width="1" />
+                                <circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.2)" />
+                            </svg>
+                        </div>
+                        <h3 class="portfolio-name">Project Two</h3>
+                        <p class="portfolio-desc">Coming soon</p>
+                    </article>
+                    <article class="portfolio-card glass-card reveal">
+                        <div class="portfolio-placeholder" aria-hidden="true">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <rect x="4" y="6" width="32" height="28" rx="4" stroke="rgba(255,255,255,0.3)" stroke-width="1" />
+                                <path d="M12 28l8-16 8 16" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="20" cy="14" r="2" fill="rgba(255,255,255,0.2)" />
+                            </svg>
+                        </div>
+                        <h3 class="portfolio-name">Project Three</h3>
+                        <p class="portfolio-desc">Coming soon</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="ebook-section section" aria-labelledby="ebook-title">
+            <div class="container">
+                <div class="ebook-card glass-card reveal">
+                    <div class="section-label reveal">Free Resource</div>
+                    <h2 class="ebook-title reveal" id="ebook-title">Free Ebook</h2>
+                    <p class="ebook-description reveal">Download my free ebook and start learning with me. Packed with insights on automation, creativity, and building digital systems that work.</p>
+                    <a href="/files/free-ebook.pdf" class="btn btn-primary ebook-btn reveal" download>
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                            <path d="M9 2v10M5 8l4 4 4-4M3 15h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Download Ebook
+                    </a>
+                    <p class="ebook-note reveal">PDF file — more formats coming soon</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section section" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-label reveal">Contact</div>
+                <h2 class="section-title reveal" id="contact-title">Let's Connect</h2>
+                <p class="section-subtitle reveal">Reach out and let's build something great together.</p>
+                <div class="contact-grid">
+                    <a href="https://wa.me/6282288005933" target="_blank" rel="noopener noreferrer" class="contact-card glass-card reveal" aria-label="Chat on WhatsApp">
+                        <div class="contact-icon" aria-hidden="true">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <path d="M18 3C10.3 3 4 9.3 4 17c0 2.6.7 5.1 2 7.3L3 33l8.9-2.9c2 1.1 4.3 1.8 6.8 1.8 7.7 0 14-6.3 14-14S25.7 3 18 3z" stroke="white" stroke-width="1.5" fill="none" />
+                                <path d="M13.5 11c-.5 0-1 .2-1.4.6-.6.6-.9 1.5-.7 2.4.3 1.3 1.3 3 2.8 4.5s3.2 2.5 4.5 2.8c.9.2 1.8-.1 2.4-.7.4-.4.6-.9.6-1.4 0-.3-.2-.6-.5-.8l-2.5-1.5c-.3-.2-.7-.2-1 0-.3.2-.7.4-1 .6-.2.1-.4.1-.6 0-.5-.2-1.5-.8-2.5-1.8s-1.6-2-1.8-2.5c-.1-.2-.1-.4 0-.6.2-.3.4-.7.6-1 .2-.3.2-.7 0-1L14.3 11.5c-.2-.3-.5-.5-.8-.5z" fill="white" />
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3 class="contact-name">WhatsApp</h3>
+                            <p class="contact-detail">082288005933</p>
+                            <span class="contact-action">Open Chat →</span>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/kal_awsme" target="_blank" rel="noopener noreferrer" class="contact-card glass-card reveal" aria-label="Visit Instagram profile">
+                        <div class="contact-icon" aria-hidden="true">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <rect x="3" y="3" width="30" height="30" rx="8" stroke="white" stroke-width="1.5" fill="none" />
+                                <circle cx="18" cy="18" r="7" stroke="white" stroke-width="1.5" fill="none" />
+                                <circle cx="26" cy="10" r="1.5" fill="white" />
+                                <circle cx="18" cy="18" r="3" fill="white" />
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3 class="contact-name">Instagram</h3>
+                            <p class="contact-detail">@kal_awsme</p>
+                            <span class="contact-action">View Profile →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">&copy; 2026 <strong>Haikal Ashidiq</strong>. <span class="footer-separator" aria-hidden="true">—</span> Building the Future with AI.</p>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top" title="Back to top">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M4 11l5-5 5 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </button>
+    <script>
+        (function() {
+            const loadingScreen = document.getElementById('loadingScreen');
+            const navbar = document.getElementById('navbar');
+            const menuToggle = document.getElementById('menuToggle');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+            const revealElements = document.querySelectorAll('.reveal');
+            let isMenuOpen = false;
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    loadingScreen.classList.add('hidden');
+                }, 800);
+            });
+            function updateActiveNav() {
+                const scrollPos = window.scrollY + 120;
+                const sections = document.querySelectorAll('section[id]');
+                let currentSection = 'home';
+                sections.forEach(function(section) {
+                    const top = section.offsetTop;
+                    const height = section.offsetHeight;
+                    if (scrollPos >= top && scrollPos < top + height) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+                navLinks.forEach(function(link) {
+                    link.classList.remove('active');
+                    if (link.getAttribute('data-section') === currentSection) {
+                        link.classList.add('active');
+                    }
+                });
+                mobileNavLinks.forEach(function(link) {
+                    link.classList.remove('active');
+                    if (link.getAttribute('data-section') === currentSection) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+            function handleScroll() {
+                if (window.scrollY > 60) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+                if (window.scrollY > 500) {
+                    scrollTopBtn.classList.add('visible');
+                } else {
+                    scrollTopBtn.classList.remove('visible');
+                }
+                updateActiveNav();
+            }
+            function revealOnScroll() {
+                revealElements.forEach(function(el) {
+                    const elTop = el.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    if (elTop < windowHeight - 80) {
+                        el.classList.add('visible');
+                    }
+                });
+            }
+            function openMenu() {
+                isMenuOpen = true;
+                mobileMenu.classList.add('active');
+                menuToggle.classList.add('active');
+                menuToggle.setAttribute('aria-expanded', 'true');
+                mobileMenu.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+            function closeMenu() {
+                isMenuOpen = false;
+                mobileMenu.classList.remove('active');
+                menuToggle.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            }
+            menuToggle.addEventListener('click', function() {
+                if (isMenuOpen) {
+                    closeMenu();
+                } else {
+                    openMenu();
+                }
+            });
+            mobileNavLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    closeMenu();
+                });
+            });
+            document.addEventListener('click', function(e) {
+                if (isMenuOpen && !mobileMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                    closeMenu();
+                }
+            });
+            scrollTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+            document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        e.preventDefault();
+                        const offset = navbar.offsetHeight + 16;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                        window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                    }
+                });
+            });
+            window.addEventListener('scroll', function() {
+                handleScroll();
+                revealOnScroll();
+            }, { passive: true });
+            handleScroll();
+            revealOnScroll();
+            let resizeTimeout;
+            window.addEventListener('resize', function() {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(function() {
+                    revealOnScroll();
+                }, 150);
+            });
+        })();
+    </script>
+</body>
+</html>
+```
